@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper{
+    border: 2px solid gray;
+    height: 40vh;
+    width: 100%;
+    max-width: 600px;
+    background: rgb(66, 64, 64);
+}
+
+.content{
+    color:  whitesmoke;
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+    font-size: 2rem;
+}
+
+.btn_btn{
+    width: 100%;
+    max-width: 170px;
+    margin: auto;
+}
+
+.btn{
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+}
